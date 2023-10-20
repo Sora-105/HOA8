@@ -1,0 +1,5 @@
+---
+
+- name: install nagios
+  ansible.builtin.include_tasks:
+   file: install_nagios1.yml
